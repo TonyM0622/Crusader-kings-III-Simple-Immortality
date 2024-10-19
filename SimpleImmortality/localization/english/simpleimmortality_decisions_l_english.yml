@@ -1,0 +1,12 @@
+﻿l_english:
+
+#localizataion for Family Mod
+immortality_decision:0 "Become Immortal"
+immortality_decision_tooltip:0 "Allow you to become immortal"
+immortality_decision_desc:0 "Become Immortal so you can never die naturally"
+immortality_decision_confirm:0 "Become Immortal!"
+
+remove_immortality_decision:0 "Become Mortal"
+remove_immortality_decision_tooltip:0 "Allows you to become Mortal"
+remove_immortality_decision_desc:0 "Become Mortal so you can die naturally"
+remove_immortality_decision_confirm:0 "Become Mortal!"

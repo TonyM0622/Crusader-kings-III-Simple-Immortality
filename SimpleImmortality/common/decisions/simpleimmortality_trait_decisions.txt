@@ -1,0 +1,59 @@
+﻿
+###################
+#### DECISIONS ####
+###################
+
+###################
+####Immortality####
+###################
+
+#Immortality Decision
+immortality_decision = {
+
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+	}
+
+	major = yes
+
+	ai_check_interval = 0
+
+	sort_order = 2
+
+	is_shown = {
+		is_ai = no
+		NOT = {
+			has_trait = immortal
+		}
+		
+	}
+
+	effect = {
+		add_trait = immortal
+	}
+
+}
+
+#Remove Immortality Decision
+remove_immortality_decision = {
+
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+	}
+
+	major = yes
+
+	ai_check_interval = 0
+
+	sort_order = 2
+
+	is_shown = {
+		is_ai = no
+		has_trait = immortal
+	}
+
+	effect = {
+		remove_trait = immortal
+	}
+
+}
