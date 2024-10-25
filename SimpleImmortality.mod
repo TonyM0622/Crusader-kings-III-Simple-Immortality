@@ -4,4 +4,4 @@ tags={
 }
 name="Simple Immortality"
 supported_version="1.13.2"
-path="C:/Users/tonym/Documents/Paradox Interactive/Crusader Kings III/mod/SimpleImmortality"
+path="mod/SimpleImmortality"
