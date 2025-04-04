@@ -3,5 +3,5 @@ tags={
 	"Decisions"
 }
 name="Simple Immortality"
-supported_version="1.14.0.2"
+supported_version="1.15.0.2"
 remote_file_id="3351064474"
