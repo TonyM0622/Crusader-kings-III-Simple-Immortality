@@ -7,8 +7,8 @@
 ####Immortality####
 ###################
 
-#Immortality Decision
-immortality_decision = {
+#Immortality Decisions
+immortality_decision_free = {
 
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
@@ -22,10 +22,112 @@ immortality_decision = {
 
 	is_shown = {
 		is_ai = no
+		has_game_rule = immortality_free
 		NOT = {
 			has_trait = immortal
 		}
 		
+	}
+
+	cost = {
+		gold = 0
+		prestige = 0
+	}
+
+	effect = {
+		add_trait = immortal
+	}
+
+}
+
+immortality_decision_low = {
+
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+	}
+
+	major = yes
+
+	ai_check_interval = 0
+
+	sort_order = 2
+
+	is_shown = {
+		is_ai = no
+		has_game_rule = immortality_cost_low
+		NOT = {
+			has_trait = immortal
+		}
+		
+	}
+
+	cost = {
+		gold = 250
+		prestige = 1000
+	}
+
+	effect = {
+		add_trait = immortal
+	}
+
+}
+
+immortality_decision_medium = {
+
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+	}
+
+	major = yes
+
+	ai_check_interval = 0
+
+	sort_order = 2
+
+	is_shown = {
+		is_ai = no
+		has_game_rule = immortality_cost_medium
+		NOT = {
+			has_trait = immortal
+		}
+		
+	}
+
+	cost = {
+		gold = 500
+		prestige = 2500
+	}
+
+	effect = {
+		add_trait = immortal
+	}
+
+}
+
+immortality_decision_high = {
+
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+	}
+
+	major = yes
+
+	ai_check_interval = 0
+
+	sort_order = 2
+
+	is_shown = {
+		is_ai = no
+		has_game_rule = immortality_cost_high
+		NOT = {
+			has_trait = immortal
+		}
+		
+	}
+
+	cost = {
+		gold = 1000
+		prestige = 5000
 	}
 
 	effect = {

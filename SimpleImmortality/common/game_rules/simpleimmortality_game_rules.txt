@@ -1,0 +1,15 @@
+﻿#Simple Immortality Game Rules
+
+immortality_cost = {
+	categories = { immortality }
+	default = immortality_free
+	#free
+	immortality_free = {}
+	#cost Low
+	immortality_cost_low = {}
+	#cost Medium
+	immortality_cost_medium = {}
+	#cost High
+	immortality_cost_high = {}
+}
+

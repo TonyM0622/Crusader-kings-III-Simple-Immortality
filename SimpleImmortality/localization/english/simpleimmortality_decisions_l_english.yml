@@ -1,10 +1,40 @@
 ﻿l_english:
 
+#localization for Simple Immortality Mod
+
+game_rule_category_immortality: "#P Simple Immortality #!"
+
+rule_immortality_cost: "#P Simple Immortality: #! Cost Option"
+setting_immortality_free: "Free"
+setting_immortality_free_desc: "No Cost for Immortality Decision"
+setting_immortality_cost_low: "Cost Low"
+setting_immortality_cost_low_desc: "Cost 250 gold and 1000 prestige"
+setting_immortality_cost_medium: "Cost Medium"
+setting_immortality_cost_medium_desc: "Cost 500 gold and 2500 prestige"
+setting_immortality_cost_high: "Cost High"
+setting_immortality_cost_high_desc: "Cost 1000 gold and 5000 prestige"
+
 #localizataion for Simple Immortality Mod
-immortality_decision:0 "Become Immortal"
-immortality_decision_tooltip:0 "Allow you to become immortal"
-immortality_decision_desc:0 "Become Immortal so you can never die naturally"
-immortality_decision_confirm:0 "Become Immortal!"
+
+immortality_decision_free:0 "Become Immortal"
+immortality_decision_free_tooltip:0 "Allow you to become immortal"
+immortality_decision_free_desc:0 "Become Immortal so you can never die naturally"
+immortality_decision_free_confirm:0 "Become Immortal!"
+
+immortality_decision_low:0 "Become Immortal"
+immortality_decision_low_tooltip:0 "Allow you to become immortal"
+immortality_decision_low_desc:0 "Become Immortal so you can never die naturally"
+immortality_decision_low_confirm:0 "Become Immortal!"
+
+immortality_decision_medium:0 "Become Immortal"
+immortality_decision_medium_tooltip:0 "Allow you to become immortal"
+immortality_decision_medium_desc:0 "Become Immortal so you can never die naturally"
+immortality_decision_medium_confirm:0 "Become Immortal!"
+
+immortality_decision_high:0 "Become Immortal"
+immortality_decision_high_tooltip:0 "Allow you to become immortal"
+immortality_decision_high_desc:0 "Become Immortal so you can never die naturally"
+immortality_decision_high_confirm:0 "Become Immortal!"
 
 remove_immortality_decision:0 "Become Mortal"
 remove_immortality_decision_tooltip:0 "Allows you to become Mortal"
